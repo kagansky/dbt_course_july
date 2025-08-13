@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+- name: NBA_RAW_DATA
+  database: NBA_KAGGALE
+  schema: RAW
+  tables: 
+    - name: DRAFT_HISTORY
+    - name: game
