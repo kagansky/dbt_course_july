@@ -7,3 +7,4 @@ sources:
   tables: 
     - name: DRAFT_HISTORY
     - name: game
+    - name: team
