@@ -9,3 +9,4 @@ sources:
     - name: game
     - name: team
     - name: line_score
+    - name: SEASONS_STATS
