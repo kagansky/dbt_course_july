@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: team_state_code
+    columns:
+      - name: FULL_NAME
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['A','B']

@@ -1,0 +1,10 @@
+version: 2
+
+snapshots:
+
+  - name: team_data_s
+    relation: ref('team_data')
+    config:
+      unique_key: team_id
+      strategy: check
+      check_cols: ['city','nickname']
