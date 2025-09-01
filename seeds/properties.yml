@@ -1,0 +1,9 @@
+version: 2
+
+seeds:
+  - name: state_mapping
+    config:
+      schema: public
+      columns types:
+        state: string
+        code: string
